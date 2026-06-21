@@ -4,3 +4,5 @@ services:
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    Key: AIPIPE_TOKEN
+    Value: eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjIzZHMxMDAwMDI0QGRzLnN0dWR5LmlpdG0uYWMuaW4ifQ.367G4wqhozIj51YTIYCJj0dkrzWUZ0t5pdbkgQR32Po
